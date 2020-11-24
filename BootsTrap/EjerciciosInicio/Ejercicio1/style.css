@@ -1,0 +1,35 @@
+.red{
+    background-color: red;
+}
+.red2{
+    background-color: red;
+    height: 4em;
+}
+.green{
+    background-color:greenyellow;
+    height: 4em;
+}
+.green2{
+    background-color:greenyellow;
+    height: 1.5em;
+}
+.blue{
+    background-color:blue;
+    height: 6em;
+}
+.orange{
+    background-color: orange;
+    height: 12em;
+}
+
+.purple{
+    background-color: purple;
+    height: 3em;
+}
+
+@media (max-width: 575px) {
+    .red{
+      background-color: red;
+      height: 4em;  
+    }
+}
