@@ -1,25 +1,121 @@
-.sky{
+.sky {
     background-color: #70FCFF;
     height: 4em;
 }
-.green{
-    background-color:rgb(107, 253, 1);
-    height: 4em;
-}
-.green2{
-    background-color:rgb(107, 253, 1);
+
+.sky2 {
+    background-color: #70FCFF;
     height: 2em;
 }
-.blue{
-    background-color:#87AADE;
-    height: 8em;
+
+.red1 {
+    background-color: red;
+    height: 4em;
 }
-.orange{
-    background-color:#F29856;
+
+.red2 {
+    background-color: #70FCFF;
+    height: 4em;
+}
+
+.red3 {
+    background-color: red;
+    height: 4em;
+}
+
+.yellow1 {
+    background-color: yellow;
+    height: 2em;
+    text-align: center;
+}
+
+.yellow2 {
+    background-color: yellow;
+    height: 2em;
+    text-align: center;
+}
+
+.green {
+    background-color: rgb(107, 253, 1);
+    height: 4em;
+}
+
+.green2 {
+    background-color: rgb(107, 253, 1);
+    height: 2em;
+}
+
+.blue {
+    background-color: #87AADE;
     height: 8em;
 }
 
-.grey{
+.orange {
+    background-color: #F29856;
+    height: 8em;
+}
+
+.orange2 {
+    background-color: #F29856;
+    height: 2em;
+}
+
+.grey {
     background-color: #CCCCCC;
     height: 8em;
+}
+
+@media (min-width: 576px) {
+    .orange2 {
+        background-color: #70FCFF;
+        height: 2em;
+    }
+
+    .red1 {
+        height: 6em;
+    }
+
+    .red2 {
+        background-color: red;
+        height: 6em;
+    }
+
+    .red3 {
+        background-color: rgb(107, 253, 1);
+        height: 4em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .orange2 {
+        background-color: rgb(107, 253, 1);
+        height: 2em;
+    }
+
+    .red1 {
+        background-color: red;
+        height: 8em;
+    }
+
+    .red2 {
+        background-color: red;
+        height: 8em;
+    }
+
+    .red3 {
+        background-color: red;
+        height: 8em;
+    }
+
+    .yellow1 {
+        background-color: yellow;
+        height: 2em;
+        text-align: right;
+    }
+    .yellow2{
+        background-color: yellow;
+        height: 2em;
+        text-align: left;
+    }
 }
